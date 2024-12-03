@@ -3,7 +3,20 @@ using namespace std;
 
 char before(char x){
 	//Write your function definition here
-}
+	if ( 65 <= x && x <= 90)
+		if ( x == 65 ){
+			return 'Z' ;
+		}else{
+	x = x - 1 ;
+	return x ;
+	}
+	else{
+		return '0' ;
+	}
+	
+	
+	}
+
 
 int main(){
 	//Test Case
@@ -17,3 +30,4 @@ int main(){
 	cout << before('c') << "\n";
 	return 0;
 }
+	
